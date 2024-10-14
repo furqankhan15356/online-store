@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
     </div>
     <div>
       <h3 className="font-bold text-center text-2xl mt-20">
-      EDITOR'S PICK
+      EDITOR&apos;S PICK
       </h3>
       <h4 className="text-gray-700 text-center mt-3">
         Problems trying to reslove the conflict between
