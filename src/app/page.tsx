@@ -26,10 +26,10 @@ export default function Home() {
     </div>
     
     <div className="grid grid-cols-4 p-10 pl-36">
-      <div><img src="girl1.png"  alt="image" className="shadow-lg hover:shadow-2xl"/></div>
-      <div><img src="girl2.png" alt="image" /></div>
-      <div><img src="men1.png" alt="image" /></div>
-      <div><img src="men2.png" alt="image" /></div>
+      <div><img src="girl1.png"  alt="image" className="transition-transform hover:scale-110"/></div>
+      <div><img src="girl2.png" alt="image" className="transition-transform hover:scale-110"/></div>
+      <div><img src="men1.png" alt="image" className="transition-transform hover:scale-110"/></div>
+      <div><img src="men2.png" alt="image" className="transition-transform hover:scale-110"/></div>
     </div>
 
 
@@ -38,17 +38,17 @@ export default function Home() {
       <h3 className="text-center text-gray-700 mt-3">Problems trying to resolve the conflict betwwen</h3>
 
       <div className="grid lg:grid-cols-4 grid-cols-1 mt-20 p-10 pl-40">
-        <div><img src="women1.png" alt="image" /></div>
-        <div><img src="boy1.png" alt="image" /></div>
-        <div><img src="women2.png" alt="image" /></div>
-        <div><img src="women3.png" alt="image" /></div>
+        <div><img src="women1.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="boy1.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="women2.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="women3.png" alt="image" className="transition-transform hover:scale-110"/></div>
       </div>
 
       <div className="grid lg:grid-cols-4 grid-cols-1 mt-20 p-10 pl-40">
-        <div><img src="boy2.png" alt="image" /></div>
-        <div><img src="women4.png" alt="image" /></div>
-        <div><img src="boy3.png" alt="image" /></div>
-        <div><img src="boy4.png" alt="image" /></div>
+        <div><img src="boy2.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="women4.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="boy3.png" alt="image" className="transition-transform hover:scale-110"/></div>
+        <div><img src="boy4.png" alt="image" className="transition-transform hover:scale-110"/></div>
       </div>
 
       <div className="grid lg:grid-cols-2  grid-cols-1 gap-20 bg-emerald-600">
