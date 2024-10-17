@@ -6,11 +6,11 @@ export default function Contact(){
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
     const [feedback,setFeedback] = useState("")
-    const [isClick,setClick] = useState(false)
+   
 
-    const submitHandler = (e)=>{
+    const submitHandler = (e: { preventDefault: () => void })=>{
         e.preventDefault()
-        setClick(true)
+      
     }
 
 
@@ -37,7 +37,14 @@ export default function Contact(){
             </div>
 
             <button type="submit" className="md:px-8 md:py-2 lg:px-8 lg:py-2 px-10 p-2 mt-10 mb-8 bg-white text-black font-medium text-xl rounded-lg hover:bg-gray-400 border border-black border-2">Send</button>
+  
+
+       
+
+
+
         </form>
+  
       </main>
     )
 }
