@@ -26,7 +26,7 @@ export default function Home() {
     </div>
     
     <div className="grid grid-cols-4 p-10 pl-36">
-      <div><img src="girl1.png" alt="image" /></div>
+      <div><img src="girl1.png"  alt="image" className="shadow-lg hover:shadow-2xl"/></div>
       <div><img src="girl2.png" alt="image" /></div>
       <div><img src="men1.png" alt="image" /></div>
       <div><img src="men2.png" alt="image" /></div>
